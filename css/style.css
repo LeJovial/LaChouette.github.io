@@ -305,6 +305,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40;
+    width: auto;
 }
 
 .navbar-brand img[src$=svg] {
@@ -629,6 +631,11 @@ a[data-lightbox]:hover img {
     right: 25px;
 }
 
+#bloc-1-hero img.image-resize-mode {
+    width: 100px;
+    height: auto;
+}
+
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
@@ -746,6 +753,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: auto;
+    width: auto;
 }
 
 .portfolio-row {
